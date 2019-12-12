@@ -1,0 +1,21 @@
+@mixin boxShadowBig {
+  box-shadow: 0 2rem 6rem rgba($color-black, 0.45);
+}
+
+@mixin boxShadowSubtle {
+  box-shadow: 0 2rem 5rem rgba($color-black,.06);
+}
+
+@mixin boxShadowHover {
+  box-shadow: 0 1.5rem 3rem rgba($color-black, .5);
+}
+
+@mixin borderBottomSmall{
+  border-bottom: 1px solid $color-grey-light-2;
+}
+
+@mixin borderTopSmall {
+  border-top: 1px solid $color-grey-light-2;
+}
+
+
